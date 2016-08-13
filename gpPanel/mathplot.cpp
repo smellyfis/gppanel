@@ -2179,7 +2179,7 @@ END_EVENT_TABLE()
 
 mpWindow::mpWindow(){}
 mpWindow::mpWindow( wxWindow *parent, wxWindowID id, const wxPoint &pos, const wxSize &size, long flag, const wxString& name )
-    : wxWindow( parent, id, pos, size, flag, name )
+    : wxScrolledWindow( parent, id, pos, size, flag, name )
 {
     m_scaleX = m_scaleY = 1.0;
     m_posX   = m_posY   = 0;

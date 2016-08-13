@@ -1234,7 +1234,7 @@ typedef std::deque<mpLayer*> wxLayerList;
         - Mouse Wheel DOWN+CTRL: Zoom out
 
 */
-class WXDLLIMPEXP_MATHPLOT mpWindow : public wxWindow
+class WXDLLIMPEXP_MATHPLOT mpWindow : public wxScrolledWindow
 {
 public:
     mpWindow();
